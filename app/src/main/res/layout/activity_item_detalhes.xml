@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtDetalhes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Detalhes"
+        android:textStyle="bold"
+        android:paddingTop="8dp" />
+
+    <ImageView
+        android:id="@+id/imgItem"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtNomeItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtDescricaoItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtPrecoItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingTop="8dp"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:id="@+id/btnAddCarrinho"
+        android:layout_width="43dp"
+        android:layout_height="50dp"
+        android:src="@drawable/carrinho"
+        android:layout_marginTop="30dp"
+         />
+</LinearLayout>

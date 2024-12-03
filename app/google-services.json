@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "282410676276",
+    "project_id": "confetteriasplendore",
+    "storage_bucket": "confetteriasplendore.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282410676276:android:4780c6459792cca5329a61",
+        "android_client_info": {
+          "package_name": "com.example.confetteria_splendore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHz4HBbhmhgK-LcIsFnOk485KUk6fsfz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
