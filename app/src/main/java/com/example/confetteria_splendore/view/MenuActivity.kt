@@ -66,7 +66,7 @@ class MenuActivity : AppCompatActivity() {
         listener = itemController.listItems().addSnapshotListener { querySnapshot, error ->
 
             if (error != null) {
-                Log.e("MenuActivity", "Erro ao buscar itens do menu: $error")
+                Log.e("MenuActivity", "Error ao buscar itens do menu: $error")
                 return@addSnapshotListener
             }
 
